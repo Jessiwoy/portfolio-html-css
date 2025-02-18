@@ -3,8 +3,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: var(--color-main);
+    font-family: "Space Grotesk", sans-serif;
 }
+
+
 
 ::selection {
     background-color: var(--color-main);
@@ -40,7 +42,7 @@ h6 {
 
 
 body {
-    font-family: "Archivo";
+    font-family: var(--font-space);
     background-color: #111111;
     overflow-x: hidden;
 }
